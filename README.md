@@ -44,7 +44,7 @@ We will cover the following in this document:
 We will use above created operator to generate server config:
 
 ``` bash
-nsc generate config -o op --sys-account SYS > server.conf
+nsc generate config --nats-resolver --sys-account SYS > server.conf
 ```
 
 The above command will write the config to `server.conf`. We will also add resolver block to the config:
