@@ -54,5 +54,5 @@ The above command will write the config to `server.conf`. `--nats-resolver` flag
 nats-server can be started using above generated config:
 
 ``` bash
-nats-server -c resolver.conf
+nats-server -c server.conf
 ```
