@@ -1,2 +1,8 @@
 cert/
 cluster-conf/
+internal-cluster/
+sql/
+.env
+APICONTRACT.md
+
+*.creds
