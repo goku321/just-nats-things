@@ -6,3 +6,8 @@ sql/
 APICONTRACT.md
 
 *.creds
+*.pem
+
+# Individual files
+add_context.sh
+jetstream.test.md
